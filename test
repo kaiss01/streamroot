@@ -1,32 +1,14 @@
 <!doctype html>
 <html>
 
-<link href="//vjs.zencdn.net/6.6.3/video-js.min.css" rel="stylesheet">
-<script src="//vjs.zencdn.net/6.6.3/video.min.js"></script>
-
-<!-- Streamroot source handler plugin -->
-<script src="//cdn.streamroot.io/videojs-hlsjs-plugin/1/stable/videojs-hlsjs-plugin.js"></script>
-
-<!-- Streamroot plugin -->
-<script src="//cdn.streamroot.io/videojs-hls-dna-plugin/1/stable/videojs-hls-dna-plugin.js#streamrootKey=YOUR_STREAMROOT_KEY"></script>
-
-<Head>
-    <script src="//tools.streamroot.io/usage-graphs/stable/graphs.js"></script>
-</Head>
-
-<body>
-    <div id="streamroot-graphs"></div>
-</body>
-
-<video id="demoplayer" class="video-js" controls>
-  <source src="YOUR_PLAYLIST_URL" type="application/x-mpegURL">
-</video>
+</style>
 <script>
-  var options = {
-    html5: {
-      hlsjsConfig: {},
-    },
-    dnaConfig: {},
-  };
-  var player = videojs("demoplayer", options);
+
 </script>
+</head>
+<body>
+<video controls width ="550" height="320">
+  <source src ="streamroot/beyonce-take-my-hand-only-audio-live-from-57th-grammy-awards.mp4"
+</video>
+</body>
+</html>
