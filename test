@@ -1,10 +1,22 @@
 <!doctype html>
 <html>
+<!-- Video.js build -->
+<link href="//vjs.zencdn.net/6.6.3/video-js.min.css" rel="stylesheet">
+<script src="//vjs.zencdn.net/6.6.3/video.min.js"></script>
 
+<!-- Streamroot source handler plugin -->
+<script src="//cdn.streamroot.io/videojs-hlsjs-plugin/1/stable/videojs-hlsjs-plugin.js"></script>
+
+<!-- Streamroot plugin -->
+<script src="//cdn.streamroot.io/videojs-hls-dna-plugin/1/stable/videojs-hls-dna-plugin.js#streamrootKey=YOUR_STREAMROOT_KEY"></script>
 </style>
 <script>
 
 </script>
+<Head>
+    <script src="//tools.streamroot.io/usage-graphs/stable/graphs.js"></script>
+</Head>
+
 </head>
 <body>
 <video controls="controls" width ="550" height="320" autoplay>
