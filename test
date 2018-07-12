@@ -7,7 +7,7 @@
 </script>
 </head>
 <body>
-<video controls width ="550" height="320">
+<video controls="controls" width ="550" height="320" autoplay>
   <source src ="kaiss01/streamroot/beyonce-take-my-hand-only-audio-live-from-57th-grammy-awards.mp4"
 </video>
 </body>
